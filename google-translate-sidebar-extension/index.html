@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Google 번역 사이드바 Chrome 확장 프로그램 개인정보처리방침">
+  <title>개인정보처리방침 · Google 번역 사이드바</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #16372f;
+      --muted: #61736e;
+      --line: #d9e4df;
+      --paper: #f7faf8;
+      --card: #ffffff;
+      --accent: #126b51;
+      --accent-soft: #e6f2ed;
+      --shadow: 0 24px 70px rgba(22, 55, 47, .09);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR", sans-serif;
+      line-height: 1.75;
+    }
+
+    main {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 72px 0 88px;
+    }
+
+    header {
+      margin-bottom: 28px;
+      padding: 8px 4px;
+    }
+
+    .eyebrow {
+      margin: 0 0 12px;
+      color: var(--accent);
+      font-size: .78rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+    }
+
+    h1, h2 { line-height: 1.25; }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(2rem, 6vw, 3.2rem);
+      letter-spacing: -.045em;
+    }
+
+    .updated {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: .92rem;
+    }
+
+    article {
+      padding: clamp(28px, 6vw, 52px);
+      border: 1px solid var(--line);
+      border-radius: 24px;
+      background: var(--card);
+      box-shadow: var(--shadow);
+    }
+
+    .summary {
+      margin: 0 0 36px;
+      padding: 18px 20px;
+      border-left: 4px solid var(--accent);
+      border-radius: 0 12px 12px 0;
+      background: var(--accent-soft);
+    }
+
+    section + section { margin-top: 34px; }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.25rem;
+    }
+
+    p { margin: 0 0 12px; }
+
+    ul {
+      margin: 8px 0 0;
+      padding-left: 1.35rem;
+    }
+
+    li + li { margin-top: 8px; }
+
+    a {
+      color: var(--accent);
+      font-weight: 650;
+    }
+
+    code {
+      padding: .12em .35em;
+      border-radius: 5px;
+      background: #eef3f0;
+      font-size: .92em;
+    }
+
+    footer {
+      margin-top: 22px;
+      padding: 0 4px;
+      color: var(--muted);
+      font-size: .88rem;
+    }
+
+    @media (max-width: 520px) {
+      main { padding-top: 42px; }
+      article { border-radius: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p class="eyebrow">Liorium · Privacy</p>
+      <h1>개인정보처리방침</h1>
+      <p class="updated">Google 번역 사이드바 · 최종 업데이트: 2026년 10월 4일</p>
+    </header>
+
+    <article>
+      <p class="summary">
+        Google 번역 사이드바는 개발자가 사용자의 개인정보를 별도 서버로 수집하거나 판매하지 않는 Chrome 확장 프로그램입니다.
+        사용자가 번역을 요청한 텍스트는 번역 결과를 받기 위해 Google 번역 서비스로 직접 전송됩니다.
+      </p>
+
+      <section>
+        <h2>1. 적용 범위</h2>
+        <p>이 방침은 Liorium이 제공하는 Chrome 확장 프로그램 ‘Google 번역 사이드바’에 적용됩니다. 확장 프로그램에서 연결하는 Google 서비스의 개인정보 처리에는 Google의 정책이 별도로 적용됩니다.</p>
+      </section>
+
+      <section>
+        <h2>2. 처리되는 정보</h2>
+        <ul>
+          <li><strong>번역 입력 텍스트:</strong> 사용자가 직접 입력하거나 웹페이지에서 선택해 번역을 요청한 텍스트입니다. 확장 프로그램은 이 텍스트를 <code>translate.googleapis.com</code>으로 보내 번역 결과를 요청합니다.</li>
+          <li><strong>확장 프로그램 설정:</strong> 선택한 원문 언어, 번역 언어, 화면 모드 설정은 Chrome의 로컬 확장 프로그램 저장소에 저장됩니다.</li>
+          <li><strong>임시 선택 텍스트:</strong> 툴바나 컨텍스트 메뉴에서 선택한 텍스트는 사이드 패널이 받을 때까지 Chrome의 세션 저장소에 잠시 저장되며, 처리 후 삭제됩니다.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>3. 처리 목적과 보관</h2>
+        <p>입력 텍스트는 번역 결과와 번역 관련 부가 정보를 제공하기 위한 목적으로만 사용됩니다. 개발자는 입력 텍스트, 번역 결과, 검색 기록을 자체 서버에 저장하지 않으며 분석 도구, 광고 식별자, 사용자 계정 또는 별도의 추적 쿠키를 사용하지 않습니다.</p>
+        <p>설정값은 사용자가 확장 프로그램을 삭제하거나 Chrome의 확장 프로그램 데이터를 지울 때까지 브라우저에 남을 수 있습니다.</p>
+      </section>
+
+      <section>
+        <h2>4. 제3자 서비스 제공</h2>
+        <p>번역을 수행하려면 입력 텍스트가 Google 번역 서비스로 전송됩니다. 요청 과정에서 Google이 네트워크 요청에 필요한 기술 정보 등을 처리할 수 있으며, 그 처리에는 Google의 약관과 개인정보처리방침이 적용됩니다.</p>
+        <p><a href="https://policies.google.com/privacy?hl=ko" target="_blank" rel="noopener noreferrer">Google 개인정보처리방침</a></p>
+      </section>
+
+      <section>
+        <h2>5. 권한 사용</h2>
+        <p>확장 프로그램은 사이드 패널과 컨텍스트 메뉴를 표시하고, 사용자가 요청한 현재 탭의 선택 텍스트를 읽으며, 번역 요청과 설정 저장을 위해 Chrome의 관련 권한을 사용합니다. 모든 웹페이지의 내용을 지속적으로 수집하거나 개발자 서버로 전송하지 않습니다.</p>
+      </section>
+
+      <section>
+        <h2>6. 이용자의 선택</h2>
+        <p>번역하지 않을 텍스트를 입력하지 않을 수 있으며, 확장 프로그램을 삭제하면 브라우저에 저장된 설정도 함께 삭제할 수 있습니다. 민감한 개인정보, 계정 정보, 결제 정보는 입력하지 않는 것을 권장합니다.</p>
+      </section>
+
+      <section>
+        <h2>7. 문의</h2>
+        <p>개인정보처리방침 또는 확장 프로그램에 관한 문의는 <a href="https://github.com/Liorium" target="_blank" rel="noopener noreferrer">Liorium GitHub 프로필</a>을 통해 남겨 주세요.</p>
+      </section>
+
+      <section>
+        <h2>8. 방침의 변경</h2>
+        <p>확장 프로그램의 기능이나 관련 법령이 변경되면 이 페이지의 내용을 수정할 수 있습니다. 변경 사항은 이 페이지에 게시하며, 상단의 최종 업데이트 날짜를 갱신합니다.</p>
+      </section>
+    </article>
+
+    <footer>© 2026 Liorium. Google 번역 사이드바.</footer>
+  </main>
+</body>
+</html>
