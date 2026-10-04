@@ -1,0 +1,393 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="RightHold — 마우스 제스처 Chrome 확장 프로그램의 개인정보처리방침. 처리 정보, 로컬 저장, 권한 사용, 외부 서비스 및 삭제 방법 안내."
+    />
+    <link
+      rel="canonical"
+      href="https://liorium.github.io/righthold-extension/"
+    />
+    <title>개인정보처리방침 · RightHold</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --ink: #202a3b;
+        --muted: #64748b;
+        --line: #e3e8f0;
+        --paper: #f6f7fb;
+        --card: #ffffff;
+        --accent: #5264e8;
+        --accent-soft: #eef1ff;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family:
+          -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans KR",
+          sans-serif;
+        line-height: 1.8;
+        word-break: keep-all;
+        overflow-wrap: anywhere;
+      }
+      main {
+        width: min(800px, calc(100% - 32px));
+        margin: 0 auto;
+        padding: 64px 0 72px;
+      }
+      header {
+        margin-bottom: 28px;
+        padding: 8px 4px;
+      }
+      .product {
+        margin: 0 0 12px;
+        color: var(--accent);
+        font-size: 1rem;
+        font-weight: 700;
+      }
+      h1,
+      h2 {
+        line-height: 1.35;
+      }
+      h1 {
+        margin: 0;
+        font-size: clamp(2rem, 6vw, 3rem);
+        letter-spacing: -0.04em;
+      }
+      .updated {
+        margin: 16px 0 0;
+        color: var(--muted);
+        font-size: 0.9rem;
+      }
+      article {
+        padding: clamp(24px, 5vw, 44px);
+        border: 1px solid var(--line);
+        border-radius: 18px;
+        background: var(--card);
+      }
+      .summary {
+        margin: 0 0 32px;
+        padding: 18px 20px;
+        border-left: 4px solid var(--accent);
+        border-radius: 0 9px 9px 0;
+        background: var(--accent-soft);
+      }
+      section + section {
+        margin-top: 32px;
+      }
+      h2 {
+        margin: 0 0 12px;
+        font-size: 1.2rem;
+      }
+      p {
+        margin: 0 0 12px;
+      }
+      ul {
+        margin: 8px 0 0;
+        padding-left: 1.25rem;
+      }
+      li + li {
+        margin-top: 9px;
+      }
+      a {
+        color: var(--accent);
+        text-underline-offset: 3px;
+      }
+      a:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 4px;
+      }
+      code {
+        padding: 0.1em 0.3em;
+        border-radius: 4px;
+        background: var(--paper);
+        font-size: 0.88em;
+      }
+      .table-wrap {
+        overflow-x: auto;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.9rem;
+      }
+      th,
+      td {
+        padding: 11px 12px;
+        border-bottom: 1px solid var(--line);
+        text-align: left;
+        vertical-align: top;
+      }
+      th {
+        background: var(--paper);
+      }
+      footer {
+        margin-top: 24px;
+        padding: 0 4px;
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+      @media (max-width: 520px) {
+        main {
+          padding-top: 32px;
+        }
+        article {
+          border-radius: 12px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <p class="product">RightHold — 마우스 제스처</p>
+        <h1>개인정보처리방침</h1>
+        <p class="updated">
+          개발자: Liorium · 시행일 및 최종 업데이트:
+          <time datetime="2026-10-04">2026년 10월 4일</time>
+        </p>
+      </header>
+      <article>
+        <p class="summary">
+          RightHold는 마우스 제스처로 브라우저를 조작하는 Chrome 확장
+          프로그램입니다. 개발자는 사용자의 정보를 자체 서버로 수집하거나
+          판매하지 않습니다. 설정은 사용자 기기에 저장되며, 사용자가 검색·링크
+          열기·다운로드 등의 동작을 실행한 경우 해당 외부 서비스나 웹사이트에
+          요청이 전달됩니다.
+        </p>
+
+        <section>
+          <h2>1. 적용 범위</h2>
+          <p>
+            이 방침은 Liorium이 제공하는 ‘RightHold — 마우스 제스처’ 확장
+            프로그램과 이 방침 페이지에 적용됩니다. 사용자가 확장을 통해
+            접근하는 검색 엔진이나 웹사이트, Chrome 및 GitHub 서비스의 개인정보
+            처리에는 각 서비스의 정책이 별도로 적용됩니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>2. 처리되는 정보와 목적</h2>
+          <ul>
+            <li>
+              <strong>마우스 좌표와 버튼·휠 입력:</strong> 사용자가 시작한
+              제스처의 방향을 인식하고 화면에 궤적을 표시하는 데 일시적으로
+              사용합니다.
+            </li>
+            <li>
+              <strong
+                >제스처 시작 위치의 링크·이미지 주소 및 선택 텍스트:</strong
+              >
+              링크 열기, 주소 복사, 이미지 저장, 선택 텍스트 검색·복사 같은
+              동작을 수행하는 데 사용합니다. 입력창의 전체 내용이나 키 입력을
+              수집하지 않습니다.
+            </li>
+            <li>
+              <strong>현재 탭의 주소·제목·상태와 열린 탭 정보:</strong> 사이트
+              제외 여부 표시, 주소·제목 복사, 탭
+              탐색·닫기·이동·고정·음소거·북마크 추가 등 사용자가 실행한 브라우저
+              동작에 사용합니다.
+            </li>
+            <li>
+              <strong>Chrome이 제공하는 최근에 닫은 탭 정보:</strong> 사용자가
+              닫은 탭 복원 동작을 실행한 경우 복원할 탭을 찾는 데 사용합니다.
+            </li>
+            <li>
+              <strong>사용자 설정:</strong> 제스처 이름·패턴·동작, 활성화 여부,
+              궤적·인식·화면 설정, 제외 사이트, 검색 엔진 URL 및 사용자 지정
+              URL을 기기의 <code>chrome.storage.local</code>에 저장합니다.
+            </li>
+          </ul>
+          <p>
+            이 정보는 확장 기능을 제공하는 목적으로만 사용합니다. 개발자는 계정,
+            분석 도구, 광고 식별자, 추적 코드 또는 별도의 사용자 데이터 서버를
+            운영하지 않으며, 확장 내부에 브라우징 기록이나 제스처 사용 기록을
+            저장하지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>3. 보관과 기기 내 처리</h2>
+          <p>
+            제스처 입력과 실행에 필요한 정보는 웹 페이지의 콘텐츠 스크립트와
+            확장 서비스 워커 사이에서 기기 내에서 처리됩니다. 일시적인 실행
+            정보는 브라우징 기록이나 별도의 사용 로그로 기록하지 않습니다.
+          </p>
+          <p>
+            설정은 사용자가 변경·초기화하거나 확장을 제거할 때까지 기기에
+            보관됩니다. Chrome 동기화 저장소를 사용하지 않으며, 개발자의 서버로
+            설정을 전송하지 않습니다.
+          </p>
+          <p>
+            설정 내보내기를 실행하면 사용자 설정이 JSON 파일로 저장됩니다. 이
+            파일에는 제스처와 사용자 지정 주소·검색 엔진·제외 사이트 등의 설정이
+            포함됩니다. 내보낸 파일은 사용자가 직접 관리합니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>4. 외부 서비스와 정보 전달</h2>
+          <ul>
+            <li>
+              <strong>선택 텍스트 검색:</strong> 사용자가 검색 동작을 실행하면
+              선택한 텍스트가 설정된 검색 엔진의 URL에 검색어로 포함되어
+              전달됩니다. 기본 검색 엔진은 Google이며 사용자가 변경할 수
+              있습니다.
+            </li>
+            <li>
+              <strong>링크·사용자 지정 주소 열기와 이미지 저장:</strong>
+              사용자가 동작을 실행하면 선택하거나 설정한 주소에 브라우저가
+              접근합니다. 해당 서비스가 요청 URL, IP 주소 및 일반적인 브라우저
+              요청 정보를 처리할 수 있습니다.
+            </li>
+            <li>
+              <strong>클립보드·북마크·다운로드:</strong> 명시적으로 선택한
+              복사·북마크·다운로드 동작은 운영체제의 클립보드 또는 Chrome의 해당
+              기능을 사용합니다. 북마크나 다운로드 기록의 보관·동기화 여부는
+              사용자의 브라우저 설정과 서비스 정책에 따릅니다.
+            </li>
+          </ul>
+          <p>
+            사용자의 데이터를 판매하거나 광고, 사용자 프로파일링 또는 사용자가
+            요청한 기능과 관계없는 목적으로 공유하지 않습니다. 개발자가 별도로
+            데이터를 저장하거나 확인하지 않습니다.
+          </p>
+          <p>
+            <a href="https://policies.google.com/privacy?hl=ko"
+              >Google 개인정보처리방침</a
+            >
+          </p>
+        </section>
+
+        <section>
+          <h2>5. 권한 사용</h2>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th scope="col">권한·접근</th>
+                  <th scope="col">사용 목적</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td><code>storage</code></td>
+                  <td>기기 내 확장 설정 저장과 변경 반영</td>
+                </tr>
+                <tr>
+                  <td><code>tabs</code></td>
+                  <td>탭 정보 확인과 사용자 요청에 따른 탭·페이지 조작</td>
+                </tr>
+                <tr>
+                  <td><code>sessions</code></td>
+                  <td>사용자가 요청한 최근 닫은 탭 복원</td>
+                </tr>
+                <tr>
+                  <td><code>contextMenus</code></td>
+                  <td>확장 아이콘의 설정·일시 정지 메뉴 표시</td>
+                </tr>
+                <tr>
+                  <td><code>clipboardWrite</code></td>
+                  <td>사용자가 요청한 주소·제목·선택 텍스트 복사</td>
+                </tr>
+                <tr>
+                  <td><code>bookmarks</code> (선택)</td>
+                  <td>
+                    사용자가 권한을 허용하고 해당 동작을 실행할 때 현재 페이지
+                    북마크 추가 및 중복 확인
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>downloads</code> (선택)</td>
+                  <td>
+                    사용자가 권한을 허용하고 해당 동작을 실행할 때 이미지
+                    다운로드
+                  </td>
+                </tr>
+                <tr>
+                  <td>웹 페이지 접근</td>
+                  <td>
+                    마우스 입력 인식, 궤적 표시 및 스크롤·복사 등 페이지 동작.
+                    파일 URL과 시크릿 창 접근은 사용자가 Chrome에서 별도로
+                    허용한 경우에만 가능
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <p>
+            RightHold는 클립보드 내용을 읽는 권한이나 전체 방문 기록을 조회하는
+            <code>history</code> 권한을 요청하지 않습니다.
+          </p>
+        </section>
+
+        <section>
+          <h2>6. 이용자의 선택과 삭제</h2>
+          <ul>
+            <li>
+              팝업이나 설정에서 확장을 일시 정지하고, 개별 제스처를 끄거나
+              사이트를 제외할 수 있습니다.
+            </li>
+            <li>
+              북마크와 다운로드 추가 권한은 일반 설정에서 허용하거나 해제할 수
+              있습니다.
+            </li>
+            <li>
+              설정에서 제스처와 제외 사이트를 수정·삭제하거나 ‘모든 설정
+              초기화’를 실행하여 사용자 설정을 기본값으로 바꿀 수 있습니다.
+            </li>
+            <li>
+              확장을 제거하면 Chrome에 저장된 확장 설정이 삭제됩니다. 내보낸
+              설정 파일, 다운로드한 이미지, 클립보드 내용 및 Chrome에 추가한
+              북마크·브라우저 기록은 별도로 직접 삭제하거나 관리해야 합니다.
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>7. 이 방침 웹 페이지의 호스팅</h2>
+          <p>
+            이 페이지는 GitHub Pages에서 HTTPS로 제공됩니다. 페이지에는 분석
+            도구, 광고, 외부 추적 스크립트 또는 외부 폰트가 없습니다. GitHub는
+            사이트 제공 및 보안을 위해 방문자의 IP 주소 등 접속 정보를 처리할 수
+            있으며, 이는 GitHub의 정책에 따릅니다.
+          </p>
+          <p>
+            <a
+              href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement"
+              >GitHub 개인정보처리방침</a
+            >
+          </p>
+        </section>
+
+        <section>
+          <h2>8. 문의</h2>
+          <p>
+            개인정보 처리나 이 방침에 관한 문의는
+            <a href="https://github.com/Liorium/liorium.github.io/issues"
+              >Liorium의 공개 문의 게시판</a
+            >을 이용해 주세요. 공개 게시판에는 민감한 개인정보나 비공개 웹
+            주소를 포함하지 마세요.
+          </p>
+        </section>
+
+        <section>
+          <h2>9. 방침의 변경</h2>
+          <p>
+            확장의 기능이나 데이터 처리 방식이 변경되면 이 페이지의 내용과 최종
+            업데이트 날짜를 수정합니다. 사용자는 이 URL에서 최신 방침을 확인할
+            수 있습니다.
+          </p>
+        </section>
+      </article>
+      <footer>© 2026 Liorium. RightHold — 마우스 제스처.</footer>
+    </main>
+  </body>
+</html>
